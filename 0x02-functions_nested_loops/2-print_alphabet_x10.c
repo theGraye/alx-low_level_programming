@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
  * print_alphabet_x10 - Make alphabet x10 lines
- * Return: Always 0
+ * Return: void
  */
 
 void print_alphabet_x10(void)
