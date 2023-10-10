@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: Function prints 10 times the alphabet in lowercase
+ * print_alphabet_x10 - Make alphabet x10 lines
  * Return: Always 0
  */
 
