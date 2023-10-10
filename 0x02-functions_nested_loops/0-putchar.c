@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: This is the main function that prints _putchar followed by a new line.
+ * Description: function prints _putchar followed by a new line.
  *
  * Return: 0 (Success)
  */
