@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Function prints 10 times the alphabet in lowercase
+ * Description: Function prints 10 times the alphabet in lowercase
  * Return: Always 0
  */
 
@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 	_putchar(c);
-	}	
+	}
 	_putchar('\n');
 	i++;
 	}
