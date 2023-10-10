@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - Make the alphabet
- * 
  * Return: Always 0
  */
 
