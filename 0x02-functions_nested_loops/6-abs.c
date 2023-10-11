@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * _abs - function to find the absolute value of a number
  * @a: function parameter
  * Return: -a or a;
