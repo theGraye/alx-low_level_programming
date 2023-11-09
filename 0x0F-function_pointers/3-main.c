@@ -4,7 +4,7 @@
 
 /**
  * main - perforrm calculator functions on command lines
- * @agrc: argument count
+ * @argc: argument count
  * @argv: argument vector
  * Return: results of calc function exectuion
  */
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 	}
 
 	/* orint results of operation */
-	printf("%d\n", get_op_func(op) (num1, num2));
+	printf("%d\n", get_op_func(op)(num1, num2));
 
 	return (0);
 }

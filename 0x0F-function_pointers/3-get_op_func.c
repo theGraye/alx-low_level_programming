@@ -16,16 +16,14 @@ int (*get_op_func(char *s))(int, int)
 		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
-		{NULL, NULL}
+		{NULL, NULL},
 	};
 	int i;
 
-	/* initialize i */
-	i = 0;
+	i =  0;
 
-	/* s does not match any of the operands */
 	while (ops[i].op != NULL && *(ops[i].op) != *s)
 		i++;
 
-	return (ops[i].f); /*return operation */
+	return (ops[i].f);
 }
